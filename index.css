@@ -1,0 +1,107 @@
+body {
+    margin: 0;
+    background-color: #1b244a;
+    font-family: Verdana, sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    perspective: 800px;
+}
+
+.container {
+    color:#EEEEEE;
+    display: flex;
+    justify-content: space-around;
+}
+
+#teams{
+    display: flex;
+    font-weight: 60px;
+    color:#EEEEEE;;
+    font-size: 60px;    
+    justify-content: center;
+    align-items: center;
+}
+
+#timer{
+    display: flex;
+    font-weight: 60px;
+    color:#EEEEEE;;
+    font-size: 60px;    
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border: 2px white solid;
+    background-color: black;
+    margin-bottom: 20px;
+}
+
+ .timeBox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 200px;
+    border: 2px white solid;
+    background-color: black;
+ }
+
+
+
+#scoreHome{
+    
+  text-align: center;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 8em;
+  padding-top:.20em;
+  color:red; 
+  }
+
+  #clock{
+    
+    text-align: center;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 8em;
+    padding-top:.20em;
+    color:red; 
+    }
+  
+        
+#scoreGuest{
+    
+  text-align: center;
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  font-size: 8em;
+  padding-top:.20em;
+  color:red; 
+  }
+
+.sbbox{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    
+    }
+
+.sbox{
+    display: flex;
+    width: 45px;
+    height: 30px;
+    border: 2px #9AABD8 solid;
+   color: #9AABD8;
+    margin-top: 10px;
+    border-radius: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+          }
