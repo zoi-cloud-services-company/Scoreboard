@@ -16,7 +16,7 @@ body {
 #teams{
     display: flex;
     font-weight: 60px;
-    color:#EEEEEE;;
+    color:#EEE;;
     font-size: 60px;    
     justify-content: center;
     align-items: center;
@@ -45,16 +45,6 @@ body {
     margin-bottom: 20px;
 }
 
- .timeBox{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 400px;
-    height: 200px;
-    border: 2px white solid;
-    background-color: black;
- }
-
 
 
 #scoreHome{
@@ -63,7 +53,7 @@ body {
   font-family: 'Cursed Timer ULiL', sans-serif;
   font-size: 8em;
   padding-top:.20em;
-  color:red; 
+  color:blue; 
   }
 
   #clock{
